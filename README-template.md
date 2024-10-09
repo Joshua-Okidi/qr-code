@@ -25,8 +25,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
@@ -37,7 +35,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+-Steps I took;
+  -Built the Structure and included the image
+  -Styled the html structure using CSS
+  - It was really difficult for me to centralize the QR code and it's surrounding box.
+**Note: I am still finding it difficult to make the Image shrink with the container box**
 ### Built with
 
 - Semantic HTML5 markup
@@ -45,11 +47,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
@@ -62,7 +61,7 @@ To see how you can add code snippets, see below:
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+   transform: translate(0, 50%);
 }
 ```
 ```js
@@ -83,20 +82,20 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Useful resources](https://www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://blog.hubspot.com/websit/center-div-css) - This is an amazing article which helped me finally understand how to center my QR Code container vertically. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Joshua Okidi](https://www.your-site.com)
+- Frontend Mentor - [@J](https://www.frontendmentor.io/profile/yourusername)
+- X - [@JoshOkidi](https://x.com/JoshOkidi)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
+
+A big thank you to W3Schools for being my No.1 goto site for help and enquiries.
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
