@@ -36,25 +36,29 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 -Steps I took;
-  -Built the Structure and included the image
-  -Styled the html structure using CSS
+  - Built the Structure and included the image
+  - Styled the html structure using CSS
   - It was really difficult for me to centralize the QR code and it's surrounding box.
-**Note: I am still finding it difficult to make the Image shrink with the container box**
+  - Similarly, a very tough phase I went through was how to make the QR Image shrink alongside the Box.
+  - From w3schools, under CSS shadow effects, I was able to add shadow box to my div.
+
+**Note: Using just HTML and CSS, how do I make this image remain in the middle with the box at different viewports?**
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-
-
 
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt on centralizing a div vertically.
+I got more familiar with how the CSS[max-width, and width] work.
+I was able to set a border around the image particularly using the third css code below.
+I made the code as minimal as possible.
 
-To see how you can add code snippets, see below:
+My important code snippets below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -63,22 +67,20 @@ To see how you can add code snippets, see below:
 .proud-of-this-css {
    transform: translate(0, 50%);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+#container img {
+  width: 100%;
+  } 
+img {
+  border-radius: 15px;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+**Help in writing markdown, I have to visit [The Markdown Guide](https://www.markdownguide.org/) to learn more.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'd love to improve on use of flexboxes, making the webpage more interactive and responsive on different devices.
+I look forward to integrating Javascript into the this next time.
 
 ### Useful resources
 
@@ -96,7 +98,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Acknowledgments
 
 A big thank you to W3Schools for being my No.1 goto site for help and enquiries.
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

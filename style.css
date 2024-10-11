@@ -2,32 +2,21 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(196, 215, 221);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    top: 20%; transform: translate(0, 20%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  'Lucida Sans Unicode', sans-serif;
 }
-
+#container img {
+    width: 100%;
+    border-radius: 15px;
+}
 #container {
-    /* top: 20%; */
-    transform: translate(0, 50%);
-    text-align:center;
     background-color: rgb(241, 246, 248);
     border-radius: 15px;
-    max-width: 20%;
-    min-height: 50%;
+    width: 30%;
     margin: auto;
     padding: 10px;
-    
+    box-shadow: 1px 1px 15px grey;
 }
-/* #qr-box {
-      
-    max-width: 35%;
-    
-} */
-#desc {
-    color: lightslategrey;
-}
-img{
-    min-width:300px;
-    max-height:300px;
-}
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px;}
 .attribution a { color: hsl(228, 45%, 44%); }
