@@ -20,12 +20,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
+Here is the Screenshot of the desktop view on my System.
+![](./Screenshot-full.jpg)
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+My Mobile view of the solution:
+![](./Screenshot-mobile.jpg)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
@@ -41,8 +40,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   - It was really difficult for me to centralize the QR code and it's surrounding box.
   - Similarly, a very tough phase I went through was how to make the QR Image shrink alongside the Box.
   - From w3schools, under CSS shadow effects, I was able to add shadow box to my div.
+  - 
 
-**Note: Using just HTML and CSS, how do I make this image remain in the middle with the box at different viewports?**
+**Note: Using just HTML and CSS, how do I make this image remain in the middle with the box at different viewports? A very important thing I learnt**
 ### Built with
 
 - Semantic HTML5 markup
@@ -79,22 +79,24 @@ img {
 
 ### Continued development
 
-I'd love to improve on use of flexboxes, making the webpage more interactive and responsive on different devices.
+I'd love to improve on the use of flexboxes, making the webpage more interactive and responsive on different devices.
 I look forward to integrating Javascript into the this next time.
 
 ### Useful resources
 
-- [Useful resources](https://www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://blog.hubspot.com/websit/center-div-css) - This is an amazing article which helped me finally understand how to center my QR Code container vertically. I'd recommend it to anyone still learning this concept.
+- [w3Schools](https://www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Hubspot](https://blog.hubspot.com/websit/center-div-css) - This is an amazing article which helped me finally understand how to center my QR Code container vertically. I'd recommend it to anyone still learning this concept.
+- [Codedamn](https://codedamn.com/news/frontend/how-to-center-a-div-text-and-more-with-css) - This made it really easier for me to keep the entire work in the middle of the page.
 
 
 ## Author
 
 - Website - [Joshua Okidi](https://www.your-site.com)
-- Frontend Mentor - [@J](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Joshua-Okid](https://www.frontendmentor.io/profile/joshuaokidi)
 - X - [@JoshOkidi](https://x.com/JoshOkidi)
 
 
 ## Acknowledgments
 
 A big thank you to W3Schools for being my No.1 goto site for help and enquiries.
+Thank you frontend Mentor for this simple but meaningful challenge. Now I know where to improve on next time.

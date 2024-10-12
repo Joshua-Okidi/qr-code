@@ -3,20 +3,41 @@ body {
     padding: 0;
     background-color: rgb(196, 215, 221);
     text-align: center; 
-    top: 20%; transform: translate(0, 20%);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular',  'Lucida Sans Unicode', sans-serif;
+    
+}
+
+.outfit-forText {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 #container img {
     width: 100%;
     border-radius: 15px;
 }
 #container {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgb(241, 246, 248);
     border-radius: 15px;
     width: 30%;
-    margin: auto;
+    margin: 0 auto;
     padding: 10px;
     box-shadow: 1px 1px 15px grey;
+    
 }
-.attribution { font-size: 11px;}
+
+p {
+    font-size: 15px;
+    font-weight:400;
+    color: rgb(107, 120, 133);
+}
+.attribution {
+    clear: both;
+
+    font-size: 11px;}
 .attribution a { color: hsl(228, 45%, 44%); }
