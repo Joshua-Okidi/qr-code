@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 ## Overview
-I was able to take a careful look at the design of the desktop-design and mobile-design provided in this challenge and try to replicate it using just simple HTML and CSS.
+After a careful observation of the desktop-design and mobile-design provided in this challenge, I have been able to replicate it using HTML and CSS only.
 ### Screenshot
 Here is the Screenshot of the desktop view on my System.
 ![](./Screenshot-full.jpg)
@@ -32,25 +32,25 @@ My Mobile view of the solution:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-Some concrete steps I took;
-  - Built the Structure and included the image
+Major oncrete steps I took;
+  - Built the Structure using HTML and included the image
   - Styled the html structure using CSS
   - It was really difficult for me to centralize the QR code and it's surrounding box.
-  - Similarly, a very tough phase I went through was how to make the QR Image shrink alongside the Box.
+  - Similarly, a quite difficult task I had to tackle was; how to make the QR Image shrink alongside the Box.
+  - After this, I was faced with the challenge of making the content remain the same while I resize the page.
   - From w3schools, under CSS shadow effects, I was able to add shadow box to my div.
 
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 - I learnt on centralizing a div vertically and horizontally at different viewports.
-- I got more familiar with how the CSS[max-width, and width] work.
-- I was able to set a border around the image particularly using the third css code below.
+- I got more familiar with how the CSS [max-width, and width] work.
+- I was able to set a border around the QR code by simply applying a border radius to it.
 
 **Some of my important code snippets below:**
 
@@ -61,7 +61,7 @@ Use this section to recap over some of your major learnings while working throug
       <p class="outfit-forText">Scan the QR Code to visit FrontEnd <br> Mentor and take your coding skills to <br> the next level</p>
   </div>
 ```
-The CSS below made my box appear the way it did in the screenshot above
+The CSS below made my #container appear in the middle as shown in the screenshot;
 ```css
 #container {
     position: absolute;
@@ -70,7 +70,7 @@ The CSS below made my box appear the way it did in the screenshot above
     transform: translate(-50%, -50%);
     background-color: rgb(241, 246, 248);
     border-radius: 15px;
-    width: 30%;
+    width: 280px;
     margin: 0 auto;
     padding: 10px;
     box-shadow: 1px 1px 15px grey; 

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(196, 215, 221);
+    background-color: hsl(194, 27%, 82%);
 }
 
 .outfit-forText {
@@ -19,19 +19,19 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(241, 246, 248);
+    background-color: hsl(197, 33%, 96%);
     border-radius: 15px;
-    width: 280px;
+    width: 290px;
     margin: 0 auto;
     padding: 10px;
-    box-shadow: 1px 1px 10px grey;
+    /* box-shadow: 1px 1px 3px grey; */
     text-align: center; 
 }
 
 p {
     font-size: 15px;
     font-weight:400;
-    color: rgb(107, 120, 133);
+    color: hsl(210, 11%, 47%);
 }
 .attribution { font-size: 11px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 42%, 43%); }
